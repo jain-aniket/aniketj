@@ -1,0 +1,16 @@
+@import '../variables.css';
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+  background-color: var(--secondary-1);
+  font-family: 'DM Sans', sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 0 10px;
+}

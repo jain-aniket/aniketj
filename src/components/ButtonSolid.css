@@ -1,0 +1,16 @@
+@import '../variables.css';
+
+.button-solid {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--tertiary-1);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.button-solid:hover {
+  background-color: var(--tertiary-2);
+}

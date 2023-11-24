@@ -1,0 +1,25 @@
+@import '../variables.css';
+
+.splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: var(--primary-1);
+  padding: 50px 20px;
+}
+
+.splash h1, .splash p {
+  max-width: 800px;
+}
+
+.splash h1 {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.splash p {
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+}
