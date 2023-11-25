@@ -1,10 +1,8 @@
-@import '../variables.css';
-
 .button-solid {
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--tertiary-1);
-  color: white;
+  background-color: var(--primary-3);
+  color: var(--secondary-3);
   text-decoration: none;
   border-radius: 50px;
   text-align: center;
@@ -12,5 +10,6 @@
 }
 
 .button-solid:hover {
-  background-color: var(--tertiary-2);
+  background-color: var(--secondary-3);
+  color: var(--primary-3)
 }

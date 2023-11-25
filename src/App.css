@@ -1,19 +1,23 @@
-.App {
-  text-align: center;
+body[data-theme='palette1'] {
+  --primary-1: #DEE2FF;
+  --primary-2: #eff1fd;
+  --primary-3: #88CCE7;
+  --secondary-1: #190933;  
+  --secondary-2: #492286;
+  --secondary-3: #04364E;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body[data-theme='palette2'] {
+  --primary-1: #190933;
+  --primary-2: #492286;
+  --primary-3: #04364E;
+  --secondary-1: #DEE2FF;
+  --secondary-2: #eff1fd;
+  --secondary-3: #88CCE7;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: var(--primary-1);
 }
+
 

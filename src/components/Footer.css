@@ -1,8 +1,7 @@
-@import '../variables.css';
 
 footer {
   padding: 15px 20px;
-  background-color: var(--secondary-1);
+  background-color: var(--primary-1);
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -11,8 +10,9 @@ footer p, footer a {
 }
 
 footer a {
+  font-size: 20px;
+  color: var(--secondary-1);
   text-decoration: none;
-  color: black;
   display: flex;
   align-items: center;
 }

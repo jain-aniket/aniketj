@@ -1,17 +1,16 @@
-@import '../variables.css';
-
 .splash {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   height: 100vh;
-  background-color: var(--primary-1);
   padding: 50px 20px;
+  background-color: var(--primary-2);
 }
 
 .splash h1, .splash p {
   max-width: 800px;
+  color: var(--secondary-2)
 }
 
 .splash h1 {

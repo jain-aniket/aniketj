@@ -1,18 +1,17 @@
-@import '../variables.css';
-
 nav {
   display: flex;
   justify-content: space-between;
   padding: 30px 30px;
-  background-color: var(--secondary-1);
   font-family: 'DM Sans', sans-serif;
+  background-color: var(--primary-1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
   text-decoration: none;
-  color: black;
   font-size: 20px;
   margin: 0 20px;
+  color: var(--secondary-1);
 }
 
 nav img {
@@ -24,7 +23,7 @@ nav img {
 .hoverUnderline{
   display: inline-block;
   position: relative;
-  color: black;
+  color: var(--secondary-1);
 }
 
 .hoverUnderline:after {
@@ -35,9 +34,9 @@ nav img {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--tertiary-1);
   transform-origin: bottom right;
   transition: transform 0.30s ease-out;
+  background-color: var(--secondary-1);
 }
 
 .hoverUnderline:hover:after {
